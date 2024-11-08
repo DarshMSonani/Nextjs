@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: rgb(159, 156, 156);
+  font-size: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: whitesmoke;
+  width: 750px;
+  /* height: 50px; */
+  margin: 3rem 0;
+  padding: 2rem 0;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menuItem li {
+  list-style: none;
+  cursor: pointer;
+  color: gray;
+}
+
+.menuItem li:hover {
+  color: rgb(90, 88, 88);
+  transition: 0.3s all ease;
+}
+
+.list-heading {
+  margin: 25px 0;
+  color: gray;
+}
+
+.userMenuItem {
+  list-style: none;
+}
+
+.content ul {
+  list-style-type: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin: 0;
+}
+
+.admin-table {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  margin: 4rem 0;
+}
+
+.admin-subtitle {
+  font-size: 3.2rem;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-icon {
+  font-size: 2.6rem;
+  color: #f12711;
+  filter: drop-shadow(0.2rem 0.2rem 0.5rem rgb(255 0 0 / 0.2));
+  cursor: pointer;
+}
+
+.displayLi {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-delete {
+  background-color: transparent;
+  border: none;
+}
+
+.delete {
+  margin-top: 3rem;
+}
